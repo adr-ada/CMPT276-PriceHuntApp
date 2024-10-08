@@ -5,14 +5,14 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- 按钮用于添加照片 -->
+    <!-- Button to add photo -->
     <Button
         android:id="@+id/btn_add_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add image" />
+        android:text="Add Photo" />
 
-    <!-- 显示选择的照片 -->
+    <!-- ImageView to display the selected photo -->
     <ImageView
         android:id="@+id/img_photo"
         android:layout_width="match_parent"
@@ -20,17 +20,26 @@
         android:scaleType="centerCrop"
         android:visibility="gone"/>
 
-    <!-- 文本输入框，用于简介 -->
+    <!-- EditText for entering description -->
     <EditText
         android:id="@+id/et_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Add description" />
+        android:hint="Enter description"
+        android:maxLength="100" />
 
-    <!-- 显示用户的简介 -->
-    <TextView
-        android:id="@+id/tv_description"
-        android:layout_width="match_parent"
+    <!-- Button to submit the photo and description -->
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp" />
+        android:text="Submit" />
+
+    <!-- RecyclerView to display list of photos and descriptions -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_items"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"/>
 </LinearLayout>
