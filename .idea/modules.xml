@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CMPT276-PriceHuntApp.iml" filepath="$PROJECT_DIR$/.idea/CMPT276-PriceHuntApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CMPT276-PriceHuntApp.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
