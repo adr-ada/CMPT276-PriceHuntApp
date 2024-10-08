@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xml file to make gradient background -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient android:type="linear" android:angle="100"
+            android:startColor="#6A736F" android:endColor="#FFFFFF"/>
+</shape>
+
+<!-- found how to make a gradient background following a youtube tutorial -->
