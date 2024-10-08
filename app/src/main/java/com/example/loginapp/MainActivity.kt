@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var usernameInput :EditText
     lateinit var passwordInput : EditText
-    lateinit var loginBtn :Button
+    lateinit var loginBtn : Button
+    // variables that will be initialized in the future
+    // lateinit == "late initialize"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,10 +35,13 @@ class MainActivity : AppCompatActivity() {
         loginBtn.setOnClickListener{
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
+            // converts the the input from users for username + password to strings
 
             Log.i("test credientials", "Username : $username and password : $password")
+            // this is just testing to see if it works, can be seen in catLog
 
             Toast.makeText(this, "Login Successful!", Toast.LENGTH_LONG).show()
+            // something that I found online to make a text popup after an action
         }
     }
 }
