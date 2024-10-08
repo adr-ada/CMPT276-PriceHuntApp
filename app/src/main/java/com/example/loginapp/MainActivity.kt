@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -34,6 +35,8 @@ class MainActivity : AppCompatActivity() {
             val password = passwordInput.text.toString()
 
             Log.i("test credientials", "Username : $username and password : $password")
+
+            Toast.makeText(this, "Login Successful!", Toast.LENGTH_LONG).show()
         }
     }
 }
