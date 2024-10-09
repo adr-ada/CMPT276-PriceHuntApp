@@ -9,8 +9,7 @@ Things that went well:<br/> - We were able to create the very outer shell of the
 <br/>
 <br/>
 Things that did not go well:<br/> - The wishlist isn't working to how we want it right now,<br/>
-                             - Since we don't have any items yet to add to a wishlist, we have to add pictures ourselves by<br/> 
-                             - Taking a picture in the emulator, then we can add a photo<br/>
+                             - Since we don't have any items yet to add to a wishlist, we have to add pictures ourselves by taking a picture in the emulator, then we can add a photo<br/>
                              - The wishlist is still very bare bones, and needs a lot of development<br/>
                              - Also we forgot to add a button for going back to the previous page after viewing wishlist<br/>
                              - Login page is not fully working yet either, need to make it so that users can sign up first and add their users and password to be actual data.<br/>
