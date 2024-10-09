@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
 
-            // this is a test2
+            // this is a ttt
         }
     }
 }
