@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="descriptionInput" type="id" />
+    <item name="photoPathInput" type="id" />
+    <item name="itemsDisplay" type="id" />
+    <item name="addButton" type="id" />
+</resources>
