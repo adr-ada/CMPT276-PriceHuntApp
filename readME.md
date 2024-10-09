@@ -1,5 +1,5 @@
 Retrospective:
-Things that went well: - We were able to create the very outer shell of the app, 
+Things that went well: - We were able to create the very outer shell of the app, <br/>
                        - Login Page is working well with users able to input username and password (although not useful yet)
                        - Login page is very minimalistic right now, but can easily be changed for iteration 2
                        - Wishlist, able to add items with description and picture
@@ -13,7 +13,6 @@ Things that did not go well: - The wishlist isn't working to how we want it righ
                              - Taking a picture in the emulator, then we can add a photo
                              - The wishlist is still very bare bones, and needs a lot of development
                              - Also we forgot to add a button for going back to the previous page after viewing wishlist
-
                              - Login page is not fully working yet either, need to make it so that users can sign up first and add their users and password to be actual data.
 
 Things to improve on: - Utilizing git properly, I don't think we used it properly as we created separate branches,
