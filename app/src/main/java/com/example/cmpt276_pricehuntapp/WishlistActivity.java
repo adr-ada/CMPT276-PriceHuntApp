@@ -30,6 +30,7 @@ public class WishlistActivity extends AppCompatActivity {
     private WishlistAdapter wishlistAdapter;
     private Bitmap selectedBitmap;
 
+    //Initialize user interface and data
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
