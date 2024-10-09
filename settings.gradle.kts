@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CMPT276-PriceHuntApp"
+rootProject.name = "PriceHunt"
 include(":app")
- 
