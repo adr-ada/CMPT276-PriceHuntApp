@@ -15,6 +15,7 @@ import com.example.cmpt276_pricehuntapp.WishlistItem;
 
 import java.util.ArrayList;
 
+//WishlistAdapter.java
 public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.WishlistViewHolder> {
 
     private ArrayList<WishlistItem> itemList;
