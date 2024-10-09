@@ -1,6 +1,7 @@
 package com.example.cmpt276_pricehuntapp.Adapter;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +33,8 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.Wishli
     @Override
     public void onBindViewHolder(@NonNull WishlistViewHolder holder, int position) {
         WishlistItem item = itemList.get(position);
-        holder.imgPhoto.setImageBitmap(item.getPhoto());
+        Bitmap bitmap = BitmapFactory.decodeFile(item.getImagePath());
+        holder.imgPhoto.setImageBitmap(bitmap);
         holder.tvDescription.setText(item.getDescription());
     }
 
