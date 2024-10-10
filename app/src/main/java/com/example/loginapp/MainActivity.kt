@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             val password = passwordInput.text.toString()
             Toast.makeText(this, "Login Successful!", Toast.LENGTH_LONG).show()
 
-            val intent = Intent(this,HomeActivity::class.java)
+            val intent = Intent(this,ProfileActivity::class.java)
             startActivity(intent)
         }
     }

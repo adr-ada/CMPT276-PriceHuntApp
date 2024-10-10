@@ -1,11 +1,14 @@
 package com.example.loginapp;
 
+import android.widget.Button;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 public class WishlistItem implements Parcelable {
     private String imagePath;
     private String description;
+
+    private Button btnProfile;
 
     public WishlistItem(String imagePath, String description) {
         this.imagePath = imagePath;
