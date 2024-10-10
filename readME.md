@@ -61,6 +61,19 @@ Running Instructions:
 - Add the Camera app somewhere visible on the emulator (swipe up on the home screen, then hold the camera icon and drag it to the home screen)
 - Take a photo so that it is possible to add an item to the wishlist
 - **Currently the app follows a linear structure of login -> profile -> wishlist -> home page**
-- Might need to add this within the dependencies of build.gradle.kt
-    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
-    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+- Might need to delete line 50 and 51 then add this within dependencies of /app/build.gradle.kts{
+        val nav_version = "2.8.2"
+
+        // Jetpack Compose integration
+        implementation("androidx.navigation:navigation-compose:$nav_version")
+
+        // Views/Fragments integration
+        implementation("androidx.navigation:navigation-fragment:$nav_version")
+        implementation("androidx.navigation:navigation-ui:$nav_version")
+
+        // Feature module support for Fragments
+        implementation("androidx.navigation:navigation-dynamic-features-fragment:$nav_version")
+
+        // Testing Navigation
+        androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
+}
