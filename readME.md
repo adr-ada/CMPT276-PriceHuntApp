@@ -1,3 +1,9 @@
+Feature Tracking:
+![Screenshot 2024-10-09 220827](https://github.com/user-attachments/assets/394d2819-a52d-4440-b09c-8e32a82c60d8)
+![Screenshot 2024-10-09 221237](https://github.com/user-attachments/assets/1421941d-c7ee-4964-b64a-2d9a1a461910)
+![Screenshot 2024-10-09 221335](https://github.com/user-attachments/assets/62e8c895-2a4f-4a59-9f3f-2f75cde9b083)
+![Screenshot 2024-10-09 221055](https://github.com/user-attachments/assets/52ee1ea5-e2d5-4c18-8a23-c4dbd037046b)
+
 Retrospective:
 Things that went well:<br/> - We were able to create the very outer shell of the app,<br/>
                        - Login Page is working well with users able to input username and password (although not useful yet)<br/>
