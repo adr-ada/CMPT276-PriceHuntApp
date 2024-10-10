@@ -58,12 +58,16 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:theme="@style/ColoredButton"
             android:textSize="20sp"
             android:padding="18dp"
             android:layout_marginTop="24sp"
+            android:background="@drawable/button_background"
             android:id="@+id/login_btn"/>
         <!-- making the button -->
+
+
 
     </LinearLayout>
 

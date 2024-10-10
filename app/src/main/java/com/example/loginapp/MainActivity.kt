@@ -29,13 +29,12 @@ class MainActivity : AppCompatActivity() {
         usernameInput = findViewById(R.id.username_input)
         passwordInput = findViewById(R.id.password_input)
         loginBtn = findViewById(R.id.login_btn)
-
         loginBtn.setOnClickListener{
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
             Toast.makeText(this, "Login Successful!", Toast.LENGTH_LONG).show()
 
-            val intent = Intent(this,SecondActivity::class.java)
+            val intent = Intent(this,HomeActivity::class.java)
             startActivity(intent)
         }
     }
