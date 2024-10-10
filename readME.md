@@ -60,4 +60,4 @@ Running Instructions:
 - Close the app by swiping up the bar on the bottom
 - Add the Camera app somewhere visible on the emulator (swipe up on the home screen, then hold the camera icon and drag it to the home screen)
 - Take a photo so that it is possible to add an item to the wishlist
-- !! Currently the app follows a linear structure of login -> profile -> wishlist -> home page !!
+- **Currently the app follows a linear structure of login -> profile -> wishlist -> home page**
