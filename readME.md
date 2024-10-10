@@ -39,13 +39,20 @@ Things to improve on:<br/> - Utilizing git properly, I don't think we used it pr
 <br/>
 <br/>
 Test Cases:<br/>
+- Profile and Login work as they should because there is no actual functionality yet.
+- Only able to enter numbers into phone number for profile, working as intended
+- Able to enter both alphabets and numerics into everything else
+- However, when you do not add any items into wishlist, profile button goes to the very top.
+- When adding more than one item, users have to scroll to see each item
+- Homepage is very barebones, does not have any functionalities.
 <br/>
 <br/>
 <br/>
 Running Instructions:
 - Ensure the latest version of Android Studio is installed
-- Download the zip files
+- Download the zip files 
 - Extract the files
+- ( or clone using the command prompt: git clone --single-branch --branch main https://github.com/CMPT276-PriceHunt/CMPT276-PriceHuntApp.git , only clones the main branch which contains our final iteration 1 )
 - Open Android Studio
 - Select Open a Project, then find the extracted folder
 - On the top left, go to Build, then Make Project
@@ -58,7 +65,7 @@ Running Instructions:
 - Click OK
 - Run the app by clicking the Run icon beside the config name on the top bar
 - Close the app by swiping up the bar on the bottom
-- Add the Camera app somewhere visible on the emulator (swipe up on the home screen, then hold the camera icon and drag it to the home screen)
+- Open the camera app (swipe up on the home screen, and click the camera app || if camera app not there, you can search it up as well in the search bar)
 - Take a photo so that it is possible to add an item to the wishlist
 - **Currently the app follows a linear structure of login -> profile -> wishlist -> home page**
 - Might need to delete line 50 and 51 then add this within dependencies of /app/build.gradle.kts{
