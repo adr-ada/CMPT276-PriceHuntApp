@@ -41,7 +41,7 @@ Running Instructions:
 - Download the zip files
 - Extract the files
 - Open Android Studio
-- Select Open a Project
+- Select Open a Project, then find the extracted folder
 - On the top left, go to Build, then Make Project
 - On the top middle, select Add Configuration
 - Select Edit Configurations
@@ -51,3 +51,4 @@ Running Instructions:
 - Set the module to LoginApp.app.main
 - Click OK
 - Run the app by clicking the Run icon beside the config name on the top bar
+- !! Currently the app follows a linear structure of login -> profile -> wishlist -> home page !!
